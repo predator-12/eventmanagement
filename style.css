@@ -1,0 +1,120 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 85px;
+    background-color: #c4b5fd;
+}
+
+body {
+    background-color: #f5f3ff;
+    color: #25243a;
+    margin: 0;
+    padding-top: 70px;
+}
+
+/* Navbar */
+.navbar-custom {
+    background-color: #211b45;
+    padding: 15px 0;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    color: #d8b4fe !important;
+    font-size: 26px;
+}
+
+.nav-link {
+    color: white !important;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #d8b4fe !important;
+}
+
+/* Buttons */
+.btn-event {
+    background-color: #8b5cf6;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.btn-event:hover {
+    background-color: #6d28d9;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Home Section */
+.hero {
+    background: linear-gradient(to right, #211b45, #8b5cf6);
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Services */
+.card {
+    height: 100%;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px #d6d0e8;
+}
+
+.card-body {
+    padding: 25px;
+}
+
+/* About Section */
+.about-section {
+    background-color: #e9e4ff;
+}
+
+.about-section p {
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* Contact Section */
+.contact-form {
+    max-width: 500px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #e1dcef;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #8b5cf6;
+    box-shadow: 0 0 5px #c4b5fd;
+}
+
+/* Footer */
+footer {
+    background-color: #211b45;
+}
